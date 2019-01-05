@@ -308,7 +308,7 @@ public class PlayerService extends IntentService implements Player.EventListener
                 .setContentTitle(getString(R.string.app_name))
                 .setPriority(Notification.PRIORITY_LOW)
                 .setContentIntent(pendingIntent)
-                .setSmallIcon(R.drawable.ic_notification)
+                .setSmallIcon(R.drawable.ic_action_name)
                 .setTicker(Constant.arrayList_play.get(Constant.playPos).getTitle())
                 .setChannelId(NOTIFICATION_CHANNEL_ID)
                 .setOnlyAlertOnce(true);

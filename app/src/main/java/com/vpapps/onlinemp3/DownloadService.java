@@ -104,7 +104,7 @@ public class DownloadService extends Service {
         mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         myNotify = new NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID);
         myNotify.setChannelId(NOTIFICATION_CHANNEL_ID);
-        myNotify.setSmallIcon(R.drawable.ic_notification);
+        myNotify.setSmallIcon(R.drawable.ic_action_name);
         myNotify.setTicker(getResources().getString(R.string.downloading));
         myNotify.setWhen(System.currentTimeMillis());
         myNotify.setOnlyAlertOnce(true);

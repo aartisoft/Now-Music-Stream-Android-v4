@@ -18,7 +18,7 @@
 
     <string name="title_activity_main">MainActivity</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="nav_header_line">Play your favourite Songs</string>
+    <string name="nav_header_line">Every Hit from every year</string>
     <string name="image_content">image</string>
     <string name="home">Home</string>
     <string name="artist">Artist</string>

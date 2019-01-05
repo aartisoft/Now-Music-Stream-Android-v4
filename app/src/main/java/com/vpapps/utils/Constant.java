@@ -44,7 +44,7 @@ public class Constant implements Serializable {
 
     public static final String TAG_ID = "id";
     public static final String TAG_CAT_ID = "cat_id";
-    public static final String TAG_CAT_NAME = "category_name";
+    public static final String TAG_CAT_NAME = "mp3_artist";
     public static final String TAG_CAT_IMAGE = "category_image";
     public static final String TAG_MP3_URL = "mp3_url";
     public static final String TAG_DURATION = "mp3_duration";

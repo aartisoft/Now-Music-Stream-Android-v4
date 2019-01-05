@@ -15,6 +15,7 @@ import java.util.ArrayList;
 public class LoadSong extends AsyncTask<String, String, String> {
 
     private SongListener songListener;
+
     private ArrayList<ItemSong> arrayList = new ArrayList<>();
 
     public LoadSong(SongListener songListener) {
