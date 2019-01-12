@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vpapps.onlinemp3">
+    package="com.nowmusicstream.ionicdev">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -88,7 +88,7 @@
             android:exported="false" />
 
         <service
-            android:name="com.vpapps.utils.NotificationExtenderExample"
+            android:name="com.nowmusicstream.utils.NotificationExtenderExample"
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE">
             <intent-filter>

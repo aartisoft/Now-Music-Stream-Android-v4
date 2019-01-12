@@ -3,14 +3,14 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.vpapps.onlinemp3"
+        applicationId "com.nowmusicstream.ionicdev"
         minSdkVersion 21
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "3.5"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
-        manifestPlaceholders = [onesignal_app_id: "cdccea80-d484-48dd-8bb4-3d289100b189",
+        manifestPlaceholders = [onesignal_app_id: "8b586eeb-ee39-446e-8274-5d9fb4ff5774",
                                 // Project number pulled from dashboard, local value is ignored.
                                 onesignal_google_project_number: "REMOTE"]
     }
